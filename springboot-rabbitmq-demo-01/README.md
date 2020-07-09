@@ -1,0 +1,5 @@
+Rabbitmq 直连模式(direct)
+
+如果有多个监听只能处理一个；
+
+该类型的交换器将所有发送到该交换器的消息被转发到RoutingKey指定的队列中，也就是说路由到BindingKey和RoutingKey完全匹配的队列中。
